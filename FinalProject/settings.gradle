@@ -1,1 +1,3 @@
+include ':yalpsiDsekoJ'
+include ':biLsekoJ'
 include ':app'
