@@ -20,6 +20,7 @@ Challenges:
   4. Figure out my favorite type of candy.
 
 */
+task groovy  {}
 
 task hello {
     description "Hey student! Run this one :D"
@@ -27,4 +28,16 @@ task hello {
     doLast {
         println "Hello World!"
     }
+}
+
+task doityalla {
+    finalizedBy "hello"
+    group "hi"
+    description "that's my first real method or closure as they say"
+    doLast {println "hi"}
+}
+
+task copyImages (type : Copy){
+    from 'images'
+    into 'build'
 }
