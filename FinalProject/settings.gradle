@@ -1,3 +1,4 @@
-include ':yalpsiDsekoJ'
-include ':biLsekoJ'
+include ':JokesLibrary'
+include ':JokesDisplay'
+include ':backend'
 include ':app'

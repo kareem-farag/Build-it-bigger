@@ -41,6 +41,10 @@ dependencies {
     implementation 'com.google.http-client:google-http-client-android:1.38.0'
     implementation 'com.google.code.findbugs:jsr305:3.0.1'
 
+    implementation project(':JokesLibrary')
+    implementation project(':JokesDisplay')
+    implementation project(':backend')
+
     androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
